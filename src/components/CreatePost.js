@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { createPost } from '../actions/postActions';
+import { createPost, createUserData  } from '../actions/postActions';
 
 class CreatePost extends Component {
     constructor(props) {
@@ -28,8 +28,9 @@ class CreatePost extends Component {
           title: this.state.title,
           description: this.state.description
         };
-        this.props.onCreatePost(post);
+       // this.props.onCreatePost(post);
         this.props.createPost(post);
+        this.props.createUserData(post)
       }
 
   render() {
@@ -66,7 +67,8 @@ class CreatePost extends Component {
 }
 
 CreatePost.propTypes = {
-    createPost: PropTypes.func.isRequired
+    createPost: PropTypes.func.isRequired,
+    createUserData: PropTypes.func.isRequired,
   };
   
-export default connect(null, { createPost })(CreatePost);
+export default connect(null, { createPost, createUserData })(CreatePost);

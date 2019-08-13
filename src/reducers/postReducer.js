@@ -2,6 +2,7 @@ import { FETCH_POSTS, CREATE_NEW_POST } from '../actions/types';
 
 const initialState = {
   items: [],
+  userData:[],
   item: {}
 };
 
@@ -15,7 +16,8 @@ export default function(state = initialState, action) {
     case CREATE_NEW_POST:
       return {
         item: action.payload,
-        state: [...state.items, action.payload]
+        items: [...state.items, action.payload],
+        userData: [...state.items, action.payload],
       };
     default:
       return state;

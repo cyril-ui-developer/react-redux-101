@@ -6,44 +6,21 @@
       "description": "React for Absolute Beginners"
     },
     {
-      "id": 2,
-      "title": "Angular",
-      "description": "Angular Fundamentals"
+      "title": "Angular ",
+      "description": "Angular Fundamentals",
+      "id": 2
+    }
+  ],
+  "userData": [
+    {
+      "id": 1,
+      "title": "React",
+      "description": "React for Absolute Beginners"
     },
     {
-      "id": 3,
-      "title": "Vue",
-      "description": "Introduction to Vue"
-    },
-    {
-      "title": "tryiuiop",
-      "description": "fghijokkljlhlk",
-      "id": 4
-    },
-    {
-      "title": "aaaaaa",
-      "description": "hhhhhhhh",
-      "id": 5
-    },
-    {
-      "title": "gfhjhklk",
-      "description": "duil",
-      "id": 6
-    },
-    {
-      "title": "dgfgljkl",
-      "description": "ooooooo",
-      "id": 7
-    },
-    {
-      "title": "fffs",
-      "description": "sfsfs",
-      "id": 8
-    },
-    {
-      "title": "fsfsf",
-      "description": "fsfsfsfsfs",
-      "id": 9
+      "title": "Angular ",
+      "description": "Angular Fundamentals",
+      "id": 2
     }
   ]
 }

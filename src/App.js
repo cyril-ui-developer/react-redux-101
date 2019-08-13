@@ -23,7 +23,7 @@ class App extends Component {
             Learn React
      
         </header> */}
-        <CreatePost onCreatePost={this.onCreatePost}  />
+        <CreatePost/>
         <ListPosts />
         
       </div>

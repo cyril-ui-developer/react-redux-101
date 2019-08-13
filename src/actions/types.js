@@ -1,2 +1,3 @@
 export const FETCH_POSTS = 'FETCH_POSTS';
 export const CREATE_NEW_POST = 'CREATE_NEW_POST';
+export const CREATE_NEW_USERDATA = 'CREATE_NEW_USERDATA';

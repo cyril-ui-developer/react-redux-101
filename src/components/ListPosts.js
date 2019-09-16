@@ -14,6 +14,7 @@ class ListPosts extends Component {
     //     if (nextProps.newPost) {
     //     //  this.props.posts.unshift(nextProps.newPost);
     //       this.props.posts = [...this.props.posts, nextProps.newPost]
+    //console.log()
 
     //     }
     //   }
